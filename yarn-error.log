@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/gabrielsartorato/.nvm/versions/node/v14.17.1/bin/node /Users/gabrielsartorato/.nvm/versions/node/v14.17.1/bin/yarn add -D git-commit0msg-linter
+
+PATH: 
+  /Users/gabrielsartorato/.nvm/versions/node/v14.17.1/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/gabrielsartorato/.nvm/versions/node/v14.17.1/bin:/opt/homebrew/bin:/Users/gabrielsartorato/.zinit/polaris/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/git-commit0msg-linter: Not found
+      at Request.params.callback [as _callback] (/Users/gabrielsartorato/.nvm/versions/node/v14.17.1/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/gabrielsartorato/.nvm/versions/node/v14.17.1/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:375:28)
+      at Request.<anonymous> (/Users/gabrielsartorato/.nvm/versions/node/v14.17.1/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:375:28)
+      at IncomingMessage.<anonymous> (/Users/gabrielsartorato/.nvm/versions/node/v14.17.1/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:481:28)
+      at IncomingMessage.emit (events.js:387:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Gabriel Sartorato <gabriel.sartorato@hotmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
