@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Gabriel Sartorato <gabriel.sartorato@hotmail.com>",
   "license": "MIT",
+  "private": false,
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.0",
@@ -26,6 +27,7 @@
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
-    "test:ci": "npm test -- --coverage"
+    "test:ci": "npm test -- --coverage",
+    "pre-commit-lint": "yarn lint-staged"
   }
 }
