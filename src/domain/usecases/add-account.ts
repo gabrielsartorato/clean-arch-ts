@@ -1,5 +1,4 @@
 import { AccountModel } from '../models/account'
-
 interface AddAccountModel {
   name: string
   email: string
