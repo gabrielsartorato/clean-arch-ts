@@ -26,7 +26,7 @@
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
-    "test:staged": "npm test -- --findRelatedTests src/**/*.ts",
+    "test:staged": "npm test --",
     "test:ci": "npm test -- --coverage",
     "pre-commit-lint": "yarn lint-staged"
   }
