@@ -8,6 +8,7 @@
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.0",
+    "@types/validator": "^13.6.3",
     "@typescript-eslint/eslint-plugin": "4",
     "eslint": "7",
     "eslint-config-standard-with-typescript": "^20.0.0",
@@ -29,5 +30,8 @@
     "test:staged": "npm test --",
     "test:ci": "npm test -- --coverage",
     "pre-commit-lint": "yarn lint-staged"
+  },
+  "dependencies": {
+    "validator": "^13.6.0"
   }
 }
