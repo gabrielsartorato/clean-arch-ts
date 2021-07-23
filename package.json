@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.0",
     "@types/validator": "^13.6.3",
@@ -32,6 +33,7 @@
     "pre-commit-lint": "yarn lint-staged"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "validator": "^13.6.0"
   }
 }
