@@ -1,4 +1,4 @@
-# Sessão 2, aula 7
+# Sessão 8, aula 20
 
 ## npm check
 
