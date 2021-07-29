@@ -1,4 +1,4 @@
-# Sessão 9, aula 25
+# Sessão 9, aula 26
 
 ## npm check
 

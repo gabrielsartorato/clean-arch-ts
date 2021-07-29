@@ -6,6 +6,7 @@ const adaptRoute = (controller: Controller) => {
     const httpRequest: HttpRequest = {
       body: req.body
     }
+    console.log(httpRequest)
 
     const httpResponse = await controller.handle(httpRequest)
 
