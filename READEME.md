@@ -10,7 +10,7 @@ Verifica todas as dependências do projeto se estão atualizadas.
 
 ## Clean Architeture
 
-
+Regras de negócio devem ficar dentro de Domain em use-cases
 
 ## Git
 
