@@ -1,4 +1,4 @@
-# Sessão 9, aula 26
+# Sessão 10, aula 1
 
 ## npm check
 
@@ -6,6 +6,17 @@ Verifica todas as dependências do projeto se estão atualizadas.
 
 ```bash
   npm-check -u
+```
+
+## Clean Architeture
+
+
+
+## Git
+
+```bash
+  # Subir a versão com tags 
+  git tag -a "1.0.0" -m "1.0.0"
 ```
 
 ## Mock
