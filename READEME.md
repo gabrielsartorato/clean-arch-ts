@@ -12,6 +12,8 @@ Verifica todas as dependências do projeto se estão atualizadas.
 
 Regras de negócio devem ficar dentro de Domain em use-cases
 
+A implementaão de uma biblioteca sempre deve ficar na ponta da arquitetura (Express, BCrypt, etc) que normalmente são a infra layer e main layer
+
 ## Git
 
 ```bash
