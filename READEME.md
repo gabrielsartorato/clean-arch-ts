@@ -1,4 +1,4 @@
-# Sessão 14, aula 1
+# Sessão 15, aula 1
 
 ## npm check
 
@@ -20,6 +20,10 @@ A implementaão de uma biblioteca sempre deve ficar na ponta da arquitetura (Exp
   # Subir a versão com tags 
   git tag -a "1.0.0" -m "1.0.0"
 ```
+
+## Deploy
+
+Biblioteca rimraf, utilizada para limpar a pasta dist toda vez que for gerado um novo build, instalar ela como desenvolvimento
 
 ## Mock
 

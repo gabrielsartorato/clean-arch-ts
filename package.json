@@ -25,12 +25,15 @@
     "husky": "^7.0.1",
     "jest": "^26.6.3",
     "lint-staged": "^11.0.1",
+    "rimraf": "^3.0.2",
     "sucrase": "^3.20.0",
     "supertest": "^6.1.4",
     "ts-jest": "^26.4.4",
     "typescript": "^4.3.5"
   },
   "scripts": {
+    "start": "node dist/main/server.js",
+    "build": "rimraf dist && tsc",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
@@ -38,12 +41,11 @@
     "test:staged": "npm test --",
     "test:ci": "npm test -- --coverage",
     "pre-commit-lint": "yarn lint-staged",
-    "start": "sucrase-node src/main/server.ts"
+    "dev": "sucrase-node src/main/server.ts"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "express": "^4.17.1",
-    "fast-glob": "^3.2.7",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.3",
     "validator": "^13.6.0"
