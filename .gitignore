@@ -1,6 +1,7 @@
 node_modules
 dist
+data
 coverage
 globalConfig.json
 
-data
+!src/data
