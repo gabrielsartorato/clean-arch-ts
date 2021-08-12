@@ -7,9 +7,9 @@ COPY ./package.json .
 
 RUN npm install --only=prod
 
-COPY ./dist ./dist
+# COPY ./dist ./dist
 
 # LIBERAR A PORTA
-EXPOSE 5000
+# EXPOSE 5000
 
-CMD npm start
+# CMD npm start
