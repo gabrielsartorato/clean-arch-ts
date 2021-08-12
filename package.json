@@ -41,7 +41,9 @@
     "test:staged": "npm test --",
     "test:ci": "npm test -- --coverage",
     "pre-commit-lint": "yarn lint-staged",
-    "dev": "sucrase-node src/main/server.ts"
+    "dev": "sucrase-node src/main/server.ts",
+    "up": "yarn build && docker-compose up -d",
+    "stop": "docker-compose down"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
