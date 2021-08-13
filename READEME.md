@@ -8,6 +8,10 @@ Verifica todas as dependências do projeto se estão atualizadas.
   npm-check -u
 ```
 
+## Flags em script
+
+- npm install --only=prod, passando a flag only prod, somente dependências de produção serão instaladas
+
 ## Clean Architeture
 
 Regras de negócio devem ficar dentro de Domain em use-cases
