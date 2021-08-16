@@ -1,6 +1,6 @@
 import { Validation } from '../../protocols/validations'
 
-class ValidationComposite implements Validation {
+export class ValidationComposite implements Validation {
   constructor (private readonly validations: Validation[]) {}
 
   validate (input: any): Error {
@@ -12,8 +12,4 @@ class ValidationComposite implements Validation {
       }
     }
   }
-}
-
-export {
-  ValidationComposite
 }

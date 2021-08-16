@@ -8,6 +8,13 @@ const badRequest = (error: Error): HttpResponse => {
   }
 }
 
+const forbidden = (error: Error): HttpResponse => {
+  return {
+    statusCode: 403,
+    body: error
+  }
+}
+
 const serverError = (error: Error): HttpResponse => {
   return {
     statusCode: 500,
@@ -32,5 +39,6 @@ export {
   badRequest,
   serverError,
   ok,
-  unauthorized
+  unauthorized,
+  forbidden
 }
