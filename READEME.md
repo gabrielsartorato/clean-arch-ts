@@ -18,6 +18,14 @@ Regras de negócio devem ficar dentro de Domain em use-cases
 
 A implementaão de uma biblioteca sempre deve ficar na ponta da arquitetura (Express, BCrypt, etc) que normalmente são a infra layer e main layer
 
+A camada de presentasion, somente deve se comunicar com a camada de domain
+
+A camada de domain não pode depender de ninguem
+
+A data somente pode conhecer domain
+
+A infra somente conhece protocolos de data
+
 ## Git
 
 ```bash
